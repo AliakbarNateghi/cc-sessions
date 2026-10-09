@@ -1,0 +1,6 @@
+{
+  "name": "cc-sessions",
+  "description": "The sessions mod for Claude Code.",
+  "owner": { "name": "AliakbarNateghi" },
+  "plugins": [{ "name": "sessions", "source": "./" }]
+}

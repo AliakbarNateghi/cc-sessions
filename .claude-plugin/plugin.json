@@ -1,0 +1,14 @@
+{
+  "name": "sessions",
+  "version": "0.1.0",
+  "description": "/sessions reports Claude Code session files per project; /sessions archive <days> moves old ones to a gzipped archive.",
+  "author": { "name": "AliakbarNateghi" },
+  "userConfig": {
+    "projectsDir": {
+      "type": "string",
+      "title": "Projects dir",
+      "description": "Claude Code projects folder. A leading ~ means your home dir.",
+      "default": "~/.claude/projects"
+    }
+  }
+}
